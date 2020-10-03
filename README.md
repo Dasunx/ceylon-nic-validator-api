@@ -17,4 +17,5 @@ So I will not have to code this same thing again
 ```
 
 You can access api here : https://nic-validator.herokuapp.com/
+
 get details : https://nic-validator.herokuapp.com/api/validate/971004343V
