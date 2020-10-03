@@ -14,7 +14,7 @@ const validateNic = async (t, a, r) => {
                 ? ((t.year = 1900 + r), (i = parseInt(s[2] + s[3] + s[4])))
                 : ((t.year = parseInt(s[0] + s[1] + s[2] + s[3])),
                   (i = parseInt(s[4] + s[5] + s[6]))),
-            (i > 366 && i <= 500) || i > 866)
+            (i > 366 && i <= 500) || i > 866 || i == 0)
         )
             return a
                 .status(404)
